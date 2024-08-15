@@ -24,8 +24,8 @@ function moveOutputPlugin() {
 
 export default defineConfig({
   // base 的寫法：
-  // base: '/您的 Git hub Repository 的名稱/'
-  base: '/web-layout-training-vite/',
+  // base: '/您的 Git hub Repository 的名稱/' ViteWebSiteTest
+  base: '/ViteWebSiteTest/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
